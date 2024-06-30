@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <form id="login" class="container my-5 p-5">
+        <div class="p-5 text-center group m-auto w-75 p-5">
+            <h1 class="text-info">Smart Login System</h1>
+            <input id="signUpName" class="form-control my-3 text-white bg-transparent" placeholder="Enter your name" type="text">
+            <input id="signUpEmail" class="form-control my-3 text-white bg-transparent" placeholder="Enter your Email" type="email">
+            <input id="signUpPassword" class="form-control my-3 text-white bg-transparent" placeholder="Enter your password" type="password">
+            <div>
+                <div id="nameAlert" class="alert alert-danger d-none" role="alert">
+                    A simple danger alert—check it out!
+                  </div>
+                  <div id="emailAlert" class="alert alert-danger d-none" role="alert">
+                    email error
+                  </div>
+                  <div id="passwordAlert" class="alert alert-danger d-none" role="alert">
+                    password error
+                  </div>
+                  <div id="done" class="text-danger d-none" role="alert">
+                    success
+                  </div>
+                  <div id="emailExists" class="text-danger d-none" role="alert">
+                    email already exists
+                  </div>
+            </div>
+            <button  class="btn btn-outline-info w-100 my-3">SignUp</button>
+            <p class="text-white">you have an account? <a class="text-white" href="/Sign in/index.html">Sign in</a></p>
+        </div>
+        <script src="js/index.js"></script>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+
+body{
+    background-color: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+    height: 75vh;
+}
+.group{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+input::placeholder {
+    opacity: 0.5;
+    color: white !important;
+  }
+  
+.style{
+    border: 1px solid #ced4da;
+}
+

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylee/bootstrap.min.css">
+    <link rel="stylesheet" href="stylee/style.css">
+</head>
+<body>
+    <form id="signInForm" class="container my-5 p-5">
+        <div class="p-5 text-center group m-auto w-75 p-5">
+            <h1 class="text-info">Smart Login System</h1>
+            <input id="signinEmail" class="form-control my-3 text-white bg-transparent" placeholder="Enter your email" type="text">
+            <input id="signinPassword" class="form-control my-3 text-white bg-transparent" placeholder="Enter your password" type="password">
+            <div id="unavailable" class="alert alert-danger d-none" role="alert">
+                unavailable
+              </div>
+            <button class="btn btn-outline-info w-100 my-3">Login</button>
+            <p class="text-white">Don’t have an account? <a class="text-white" href="/Sign Up/index.html">Sign up</a></p>
+        </div>
+    </form>
+    <script src="js/index.js"></script>
+</body>
+</html>
